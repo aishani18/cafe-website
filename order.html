@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order List</title>
+    <link rel="stylesheet" href="styleo.css" />
+  </head>
+  <body>
+    <h1>Your Order List</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="order-list"></tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"><strong>Total Price</strong></td>
+          <td id="total-price" colspan="2"></td>
+        </tr>
+      </tfoot>
+    </table>
+    <button onclick="location.href='index.html'" class="cute-button">
+      Back to Menu
+    </button>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        displayCart();
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

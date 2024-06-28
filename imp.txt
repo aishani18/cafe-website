@@ -1,0 +1,30 @@
+Start Your Local Server:
+
+Start your local server software (e.g., XAMPP Control Panel, MAMP application, etc.). This will start Apache (web server) and MySQL (database server) on your local machine.
+Place Your Project Files:
+
+Place your project files (including contact.html, styles.css, submit_form.php, and other related files) in the appropriate directory. In most local server setups, this is typically the htdocs or www folder within your server software's directory.
+Access Your Project:
+
+Open your web browser and type http://localhost/ in the address bar. This should bring up the default page of your local server.
+Navigate to Your Project:
+
+If you placed your project files directly under htdocs or www, you can access them by appending the file path to http://localhost/. For example, if your project files are in a folder named cutesycafe, you would access it using http://localhost/cutesycafe/.
+Access Specific Pages:
+
+To access contact.html, assuming it's in your project folder (cutesycafe in this example), you would type http://localhost/cutesycafe/contact.html in your browser's address bar.
+Example:
+If you placed your contact.html file directly under htdocs (or www depending on your server setup), you could access it via http://localhost/contact.html.
+Notes:
+Ensure that your web server (Apache, etc.) is running. You can usually check this from the control panel of your local server software.
+Make sure the file path in your browser matches the actual directory structure where your files are located.
+PHP files (submit_form.php in your case) should also be placed in the same directory accessible from localhost.
+By following these steps, you should be able to access your project locally via localhost and view the contact.html page as intended. If you encounter any issues, check your server's configuration and error logs for troubleshooting.
+
+
+
+
+
+
+
+

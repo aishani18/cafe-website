@@ -1,0 +1,93 @@
+/* Importing a cute font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffefdf; /* Light peach background */
+  color: #2d2d2d; /* Dark grey for text */
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #ff8b94; /* Soft pinkish peach color */
+  margin: 20px 0;
+}
+
+p {
+  font-family: "Pacifico", cursive; /* Applying Pacifico font to paragraphs */
+  font-size: 1.2em;
+  color: #2d2d2d;
+  margin: 20px 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.gallery div {
+  position: relative;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #ff8b94; /* Soft pinkish peach border */
+  border-radius: 15px;
+  max-width: 300px; /* Ensure images don't get too large */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.caption {
+  font-family: "Pacifico", cursive;
+  font-size: 1em;
+  color: #2d2d2d;
+  margin-top: 10px;
+}
+.cute-button {
+  background-color: #4facfe; /* Blue background */
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+  box-shadow: 0 5px #2d89ef; /* Darker blue shadow for 3D effect */
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.cute-button:hover {
+  background-color: #38a1db; /* Darker blue on hover */
+  box-shadow: 0 5px #2578a9; /* Darker shadow on hover */
+  transform: translateY(-2px); /* Slight upward movement on hover */
+}
+
+.cute-button:active {
+  box-shadow: 0 2px #2578a9; /* Less shadow when pressed */
+  transform: translateY(2px); /* Downward movement when pressed */
+}
+
+.footer {
+  background-color: #ffb6c1;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: "Pacifico", cursive;
+}
+
+.footer a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
